@@ -10,19 +10,7 @@
 <link rel="stylesheet" href="http://code.minnpost.com/jquery-vertical-timeline/bower_components/normalize-css/normalize.css">
 <link rel="stylesheet" href="http://code.minnpost.com/jquery-vertical-timeline/dist/jquery-vertical-timeline.min.css">
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="js/jquery.timelinr-0.9.54.js"></script>
-	<script>
-		$(function(){
-			$().timelinr({
-				orientation: 	'vertical',
-				issuesSpeed: 	300,
-				datesSpeed: 	100,
-				arrowKeys: 		'true',
-				startAt:		3
-			})
-		});
-	</script>
+
 </head>
 <body>
 <div id="wrapper">
@@ -47,45 +35,8 @@
 <div id="page">
 <div id="content">
 <div id="post1">
-<h2>Introducing CapSol</h2>
-<img class="alignleft" src="http://www.ezimba.com/work/140123C/ezimba14514855425200.gif" width="573" height="353" alt="" />
-<div class="timeline-jquery-example-mn-gambling cf">
-  </div>
+<img class="alignmiddle" src="http://www.ezimba.com/work/140123C/ezimba14514855425200.gif" width="573" height="353" alt="" />
 
-<script type="text/javascript" src="http://code.minnpost.com/jquery-vertical-timeline/dist/jquery-vertical-timeline.libs.js"></script>
-  <script type="text/javascript" src="http://code.minnpost.com/jquery-vertical-timeline/dist/jquery-vertical-timeline.js"></script>
-
- <script type="text/javascript">
-    $(document).ready(function() {
-      $('.timeline-jquery-example-mn-gambling').verticalTimeline({
-        key: 'https://docs.google.com/spreadsheet/pub?key=0AtX8MXQ89fOKdDZadGcyNE9CZmFZV29tQjI5RFU3X3c&output=html',
-        sheetName: 'timeline-data',
-        defaultDirection: 'oldest',
-        defaultExpansion: 'collapsed',
-        groupFunction: 'groupSegmentByDecade',
-        width: '50%',
-        tabletopOptions: {
-          parameterize: 'http://gs-proxy.herokuapp.com/proxy?url='
-        }
-      });
-
-      $.getJSON('./example/example.json', function(data) {
-        $('.timeline-jquery-example-kitten').verticalTimeline({
-          data: data,
-          width: '75%',
-          handleResize: true
-        });
-      });
-
-      $('.timeline-jquery-example-mn-example').verticalTimeline({
-        key: '0AjYft7IGrHzNdHVTTi1xRGtpdHV5SzJDZW4yRnlRN2c',
-        sheetName: 'Entries',
-        tabletopOptions: {
-          parameterize: 'http://gs-proxy.herokuapp.com/proxy?url='
-        }
-      });
-    });
-  </script>
 <br class="clearfix" />
 </div>
 </div>

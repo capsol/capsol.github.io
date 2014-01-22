@@ -23,6 +23,12 @@ a:hover {
 text-decoration: none;
 }
 
+.example {
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+  border-bottom: 1px solid #BABABA;
+}
+
 body {
 background: #0C1114 url(http://www.majhost.com/gallery/moony/CapSol/img01.jpg);
 color: #8EA2AD;

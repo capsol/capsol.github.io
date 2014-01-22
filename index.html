@@ -53,23 +53,6 @@
 CapSol is a specialized form of capacitor that fuses the benefits of supercapacitor technology, carbon-based and silicon-based materials in order to procure and store solar energy more efficiently. It also retains the properties of conventional supercapacitors in which it can recharge technological devices in a short period of time to permit them to last even longer than typical batteries.  The supercapacitor is constructed out of porous silicon, which gives it the advantage of it being able to be built with and at the same time as the rest of the microelectronic circuitry as the device it powers. The porous silicon by itself is too volatile a material to be used in supercapacitors, as it reacts with chemicals that produce an electric charge, thus it needs to be coated with a film of graphene. This layer of graphene can then be exposed to a chemical process known as doping, enhancing its conductivity and storage capabilities. The fusion of both silicon and graphene materials improves energy densities two orders of magnitude superior than commercially-available pure silicon or pure graphene supercapacitors. 
 </p>
 
-<div class="example">
-    <h1>Minnesota Gambling Example</h1>
-    <a class="spreadsheet-link" href="https://docs.google.com/spreadsheet/pub?key=0AtX8MXQ89fOKdDZadGcyNE9CZmFZV29tQjI5RFU3X3c">Spreadsheet</a>
-<pre><code>{
-  key: 'https://docs.google.com/spreadsheet/pub?key=0AtX8MXQ89fOKdDZadGcyNE9CZmFZV29tQjI5RFU3X3c&amp;output=html',
-  sheetName: 'timeline-data',
-  defaultDirection: 'oldest',
-  defaultExpansion: 'collapsed',
-  groupFunction: 'groupSegmentByDecade',
-  width: '50%',
-  tabletopOptions: {
-    parameterize: 'http://gs-proxy.herokuapp.com/proxy?url='
-  }
-}</code></pre>
-    <div class="timeline-jquery-example-mn-gambling cf"></div>
-  </div>
-  
 <script type="text/javascript" src="http://code.minnpost.com/jquery-vertical-timeline/dist/jquery-vertical-timeline.libs.js"></script>
   <script type="text/javascript" src="http://code.minnpost.com/jquery-vertical-timeline/dist/jquery-vertical-timeline.js"></script>
 
@@ -82,22 +65,6 @@ CapSol is a specialized form of capacitor that fuses the benefits of supercapaci
         defaultExpansion: 'collapsed',
         groupFunction: 'groupSegmentByDecade',
         width: '50%',
-        tabletopOptions: {
-          parameterize: 'http://gs-proxy.herokuapp.com/proxy?url='
-        }
-      });
-
-      $.getJSON('./example/example.json', function(data) {
-        $('.timeline-jquery-example-kitten').verticalTimeline({
-          data: data,
-          width: '75%',
-          handleResize: true
-        });
-      });
-
-      $('.timeline-jquery-example-mn-example').verticalTimeline({
-        key: '0AjYft7IGrHzNdHVTTi1xRGtpdHV5SzJDZW4yRnlRN2c',
-        sheetName: 'Entries',
         tabletopOptions: {
           parameterize: 'http://gs-proxy.herokuapp.com/proxy?url='
         }

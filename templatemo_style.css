@@ -128,8 +128,9 @@ img { margin: 0; padding: 0; border: none }
 .color1 { background: #b10075 }
 .color2 { background: #252525 }
 .color3 { background: #a7b100 }
-.color4 { background: #b17900 url(images/templatemo_social.jpg) no-repeat }
+.color4 { background: #b17900 }
 .color5 { background: #0060b1 }
+.color6 { background: #D00000 }
 
 .padding_30 { padding: 30px 30px 0 }
 .padding_20 { padding: 20px }
